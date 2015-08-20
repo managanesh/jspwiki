@@ -422,7 +422,7 @@ public class LinkTag
             JspWriter out = pageContext.getOut();
             String url = figureOutURL();
 
-            StringBuffer sb = new StringBuffer( 30 );
+            StringBuffer sb = new StringBuffer( 40 );
 
             sb.append( (m_class != null)   ? "class=\""+m_class+"\" " : "" );
             sb.append( (m_style != null)   ? "style=\""+m_style+"\" " : "" );
